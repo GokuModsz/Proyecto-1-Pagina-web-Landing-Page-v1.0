@@ -1,0 +1,90 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+.cuerpo {
+  margin: auto;
+  padding: 63px 63px 0px 79px;
+  height: 100%;
+  background: var(--violet) url("/images/bg-desktop.svg") no-repeat;
+}
+
+.container-main {
+  display: flex;
+  gap: 57px;
+}
+
+.container-column-1,
+.container-column-2 {
+  padding: 0;
+  margin: 0;
+}
+
+.container-column-2 h1 {
+  color: white;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.container-column-2 p {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0px 1.8em 0px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17.3px;
+}
+
+.container-logo {
+  margin-bottom: 103px;
+}
+
+.btn-regis {
+  padding: 0;
+  border-radius: 35px;
+  width: 202px;
+  height: 56px;
+  margin-top: 10px;
+  color: var(--violet);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  border-style: none;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.btn-regis:hover {
+  background-color: var(--soft-magenta);
+  color: white;
+}
+
+.iconos {
+  padding: 0;
+  margin-top: -30px;
+  margin-right: 15px;
+  display: inline-flex;
+  float: right;
+  gap: 15px;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.iconos .icon-facebook,
+.icon-twitter,
+.icon-instagram {
+  border: 1px solid white;
+  padding: 0.68em;
+  border-radius: 100%;
+  display: flex;
+  justify-items: center;
+}
+
+.iconos .icon-facebook:hover,
+.icon-twitter:hover,
+.icon-instagram:hover {
+  color: var(--soft-magenta);
+  border: 1px solid var(--soft-magenta);
+}
